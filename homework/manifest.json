@@ -5,8 +5,12 @@
     "manifest_version": 3,
     "content_scripts": [
       {
-        // "matches": ["https://beef.center.kobe-u.ac.jp/2022/"],
         "matches": ["https://www.office.kobe-u.ac.jp/stdnt-kymsys/student/student.html"],
+        "js": ["homework.js"],
+        "css": ["homework.css"]
+      },
+      {
+        "matches": ["https://beef.center.kobe-u.ac.jp/2022/"],
         "js": ["homework.js"],
         "css": ["homework.css"]
       }
