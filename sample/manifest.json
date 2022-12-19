@@ -11,7 +11,11 @@
     {
       "matches": ["https://outlook.office365.com/mail/*"],
       "css": ["mystyle.css"]
-    }
+    },
+    { 
+      "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-03.html"],
+      "js": ["content_script2.js"]
+  }
   ]
   
 }
