@@ -5,7 +5,8 @@
     "manifest_version": 3,
     "content_scripts": [
       {
-        "matches": ["https://beef.center.kobe-u.ac.jp/2022/"],
+        // "matches": ["https://beef.center.kobe-u.ac.jp/2022/"],
+        "matches": ["https://baseball.yahoo.co.jp/npb/standings/"],
         "js": ["homework.js"],
         "css": ["homework.css"]
       }
