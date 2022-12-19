@@ -1,0 +1,15 @@
+{
+    "name": "Homework Chrome Extension",
+    "description": "Fight!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://beef.center.kobe-u.ac.jp/2022/"],
+        "js": ["homework.js"],
+        "css": ["homework.css"]
+      }
+    ]
+    
+  }
+  
