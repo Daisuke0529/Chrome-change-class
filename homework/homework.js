@@ -13,4 +13,7 @@ for(let i = 0; i < es.length; i++){
   if(e && e.textContent.includes("前期")){
     e.style.display = 'none';
   }
+  if(e && e.textContent.includes("第１クオーター")){
+    e.style.display = 'none';
+  }
 }
