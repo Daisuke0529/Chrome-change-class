@@ -16,6 +16,6 @@ let es = document.querySelectorAll(".tree_item");
 for(let i = 0; i < es.length; i++){
   let e = es[i];
   if(e && e.textContent.includes("前期")){
-    es.style.display = 'none';
+    e.style.display = 'none';
   }
 }
