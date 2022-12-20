@@ -6,11 +6,6 @@ target2.appendChild(element2); // 追加するyui_3_17_2_1_1671470841257_30
 
 
 
-let ab=document.querySelectorAll(".tree_item");
-for(let i=0;i<ab.length;i++){
-    let bb=ab[i];
-    bb.style.display='none';
-}
 
 let es = document.querySelectorAll(".tree_item");
 for(let i = 0; i < es.length; i++){
