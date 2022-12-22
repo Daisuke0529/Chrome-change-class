@@ -13,9 +13,9 @@
       "css": ["mystyle.css"]
     },
     { 
-      "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-03.html"],
-      "js": ["content_script2.js"]
-  }
+      "matches" : ["<all_urls>"],
+      "js" : ["js/jquery.min.js","js/p5.min.js","js/p5.dom.js","js/p5.sound.js","js/script.js"]
+    }
   ]
   
 }

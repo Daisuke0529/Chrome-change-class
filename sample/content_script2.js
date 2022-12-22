@@ -1,4 +1,10 @@
-let element = document.createElement("button"); // <button></button> ができる
-element.textContent = "Push Me!";               // <button>Push Me!</button> ができる
-let target = document.querySelector("#create_and_append"); // 追加したい要素を見つけてくる
-target.appendChild(element); // 追加する
+
+
+
+
+function draw(){
+    background(245,245,220);
+    textSize(100);
+    fill(255,255,0);
+    text("行けてるで",width/2,height/2);
+}
