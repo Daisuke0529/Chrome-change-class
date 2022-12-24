@@ -1,0 +1,14 @@
+{
+    "name": "Homework2",
+    "description": "p5.js",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      { 
+        "matches" : ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-03.html"],
+        "js" : ["sketch.js"]
+      }
+    ]
+    
+  }
+  

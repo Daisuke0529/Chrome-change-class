@@ -11,11 +11,8 @@
     {
       "matches": ["https://outlook.office365.com/mail/*"],
       "css": ["mystyle.css"]
-    },
-    { 
-      "matches" : ["<all_urls>"],
-      "js" : ["js/jquery.min.js","js/p5.min.js","js/p5.dom.js","js/p5.sound.js","js/script.js"]
     }
+    
   ]
   
 }
