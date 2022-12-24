@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "content_scripts": [
       { 
-        "matches" : ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-03.html"],
+        "matches" : ["https://www.office.kobe-u.ac.jp/stdnt-kymsys/student/student.html"],
         "js" : ["sketch.js"]
       }
     ]
