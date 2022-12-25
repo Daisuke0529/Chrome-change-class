@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "content_scripts": [
       { 
-        "matches" : ["https://baseball.yahoo.co.jp/npb/standings/"],
+        "matches" : ["https://baseball.yahoo.co.jp/npb/standings/*"],
         "js" : ["content_script.js"]
     }
     ]
