@@ -6,7 +6,7 @@
     "content_scripts": [
       { 
         "matches" : ["https://baseball.yahoo.co.jp/npb/standings/"],
-        "js" : ["content_scripts.js"]
+        "js" : ["content_script.js"]
     }
     ]
   }
