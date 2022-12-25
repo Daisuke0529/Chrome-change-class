@@ -1,7 +1,14 @@
 /* 大山2021ビエイラ逆転2ラン */
 body {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
     background-image: url("https://hochi.news/images/2021/09/04/20210904-OHT1I51275-L.jpg") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgba(255,255,255,0.8) !important;;
+    background-blend-mode: soft-light !important;
+  }
+
+  button{
+    background-color:rgb(255, 255, 0);
+    float: right;
   }

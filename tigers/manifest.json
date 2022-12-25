@@ -10,7 +10,8 @@
     },
     {
       "matches" : ["<all_urls>"],
-        "css" : ["mystyle2.css"]
+      "js" : ["content_script2.js"],
+      "css" : ["mystyle2.css"]
     }
     ]
   }
