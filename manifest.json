@@ -1,0 +1,12 @@
+{
+    "name": "Tigers",
+    "description": "Tigers is No.1!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      { 
+        "matches" : ["https://baseball.yahoo.co.jp/npb/standings/"],
+        "js" : ["content_scripts.js"]
+    }
+    ]
+  }
