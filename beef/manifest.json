@@ -7,8 +7,8 @@
     
       {
         "matches": ["https://beef.center.kobe-u.ac.jp/2022/*"],
-        "js": ["homework.js"],
-        "css": ["homework.css"]
+        "js": ["content_script.js"],
+        "css": ["mystyle.css"]
       }
     ]
     
