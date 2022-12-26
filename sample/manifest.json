@@ -11,6 +11,10 @@
     {
       "matches": ["https://outlook.office365.com/mail/*"],
       "css": ["mystyle.css"]
+    },
+    {
+      "matches": ["https://ja.wikipedia.org/wiki/*"],
+      "js": ["content_script2.js"]
     }
     
   ]
