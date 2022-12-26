@@ -16,7 +16,7 @@
       "matches": ["https://ja.wikipedia.org/wiki/*"],
       "js": ["content_script2.js"]
     }
-    
+
   ]
-  
 }
+  
