@@ -6,7 +6,8 @@ a.textContent = "3:大山悠輔";
 let audio = document.createElement("audio");
 audio.id="oyama";
 let source= document.createElement("source"); 
-source.src= "oyama.mp3";  
+const mp3 = chrome.runtime.getURL("oyama.mp3");
+audio.src= mp3;  
 source.type="audio/mp3"
 let h1 = document.querySelector("h1");
 audio.appendChild(source);
@@ -48,3 +49,10 @@ refresh.addEventListener('click', function(){
     }
     music.loop = true;
   });
+
+
+
+
+audio.controls = true;
+
+document.body.insertBefore(audio, document.body.firstElementChild);

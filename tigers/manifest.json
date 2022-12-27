@@ -10,8 +10,18 @@
     },
     {
       "matches" : ["<all_urls>"],
-      "js" : ["content_script2.js"],
+      "js" : ["content_script3.js"],
       "css" : ["mystyle2.css"]
     }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "*.mp3"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
     ]
 }
